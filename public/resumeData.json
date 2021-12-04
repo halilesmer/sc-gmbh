@@ -1,47 +1,48 @@
 {
   "main": {
-    "name":"Silver Connect GmbH",
-    "description":"Nisi nulla velit eiusmod sit irure. Ullamco Lorem mollit exercitation nisi tempor eiusmod eiusmod culpa amet commodo. Anim adipisicing commodo ex commodo aute esse nostrud velit. Magna culpa laborum laborum incididunt deserunt dolor laboris magna officia occaecat anim sunt. Qui aliquip cupidatat ipsum dolore adipisicing non enim .",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Ihr direkter Draht zu uns:",
+    "name": "Silver Connect GmbH",
+    "description": "Nisi nulla velit eiusmod sit irure. Ullamco Lorem mollit exercitation nisi tempor eiusmod eiusmod culpa amet commodo. Anim adipisicing commodo ex commodo aute esse nostrud velit. Magna culpa laborum laborum incididunt deserunt dolor laboris magna officia occaecat anim sunt. Qui aliquip cupidatat ipsum dolore adipisicing non enim .",
+    "image": "logo.jpg",
+    "image-logo": "logo.jpg",
+    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage": "Ihr direkter Draht zu uns:",
     "email": "info@silverconnect.de",
     "phone": "+49 (0) 17631491603",
-    "github":"",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
-    "address":{
-      "street":"Schellendorffstr. 22",
-      "city":"",
-      "state":"Berlin",
+    "github": "",
+    "project": "https://github.com/nordicgiant2/react-nice-resume",
+    "address": {
+      "street": "Schellendorffstr. 22",
+      "city": "",
+      "state": "Berlin",
       "zip": "12199"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
+        "name": "instagram",
+        "url": "http://instagram.com/tbaker_x",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-github"
       }
     ]
   },
