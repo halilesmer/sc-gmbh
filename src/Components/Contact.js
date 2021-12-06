@@ -1,17 +1,43 @@
-import React, { Component } from "react";
+import React, {useRef } from "react";
 import { Fade, Slide } from "react-reveal";
+import emailjs from 'emailjs-com'
 
-class Contact extends Component {
-  render() {
-    if (!this.props.data) return null;
+const Contact =(props)=> {
+  const form = useRef();
+  
+  const sendemail = (e) => {
+      e.preventDefault();
 
-    const name = this.props.data.name;
-    const street = this.props.data.address.street;
-    //const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const message = this.props.data.contactmessage;
+      emailjs
+        .sendForm(
+          "service_7364xg5",
+          "template_mg2fimu",
+          form.current,
+          //e.target,
+          "user_0XboTQFHWXrfUxdhzR593"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+      );
+    e.target.reset();
+}
+
+  
+  
+    if (!props.data) return null;
+
+    const name = props.data.name;
+    const street = props.data.address.street;
+    //const city = props.data.address.city;
+    const state = props.data.address.state;
+    const zip = props.data.address.zip;
+    const phone = props.data.phone;
+    const message = props.data.contactmessage;
 
     return (
       <section id="contact">
@@ -32,7 +58,14 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
+              <form
+                ref={form}
+                onSubmit={sendemail}
+                action=""
+                method="post"
+                id="contactForm"
+                name="contactForm"
+              >
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
@@ -43,8 +76,9 @@ class Contact extends Component {
                       defaultValue=""
                       size="35"
                       id="contactName"
-                      name="contactName"
-                      onChange={this.handleChange}
+                      name="name"
+                      required="true"
+                      /* onChange={handleChange} */
                     />
                   </div>
 
@@ -57,8 +91,9 @@ class Contact extends Component {
                       defaultValue=""
                       size="35"
                       id="contactEmail"
-                      name="contactEmail"
-                      onChange={this.handleChange}
+                      name="email"
+                      required="true"
+                      /* onChange={handleChange} */
                     />
                   </div>
 
@@ -69,8 +104,9 @@ class Contact extends Component {
                       defaultValue=""
                       size="35"
                       id="contactSubject"
-                      name="contactSubject"
-                      onChange={this.handleChange}
+                      name="subject"
+                      required="true"
+                      /* onChange={handleChange} */
                     />
                   </div>
 
@@ -82,12 +118,14 @@ class Contact extends Component {
                       cols="50"
                       rows="15"
                       id="contactMessage"
-                      name="contactMessage"
+                      name="message"
+                      required="true"
                     ></textarea>
                   </div>
 
                   <div>
-                    <button className="submit">Senden</button>
+                    {/* <button className="submit">Senden</button> */}
+                    <input type="submit" className="submit" value="Senden" />
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
@@ -151,6 +189,6 @@ class Contact extends Component {
       </section>
     );
   }
-}
+
 
 export default Contact;
