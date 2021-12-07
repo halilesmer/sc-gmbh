@@ -43,7 +43,7 @@ const Contact = (props) => {
     e.target.reset();
     } else {
       snackbar.duration = 2000;
-      return snackbar.show("Bitte");
+      return snackbar.show("Bitte lösen Sie Captcha richtig!");
     }
     
     

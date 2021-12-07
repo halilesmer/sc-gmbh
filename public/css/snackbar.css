@@ -1,12 +1,12 @@
 .snackbar {
   display: inline-block;
-  position:fixed;
-  top: 2rem;
+  position: fixed;
+  top: 5rem;
   left: 30%;
   right: 30%;
-  
-  background: #323232;
-  color: #f1f1f1;
+
+  background: wheat;
+  color: black;
   min-height: 50px;
   min-width: 290px;
   padding: 16px 24px 12px;
@@ -14,7 +14,7 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 
   border-radius: 10px;
-  font-size: 90%;
+  font-size: 100%;
   transition: visibility 0.3s, transform 0.3s;
   transform: translateY(100px);
   visibility: hidden;
