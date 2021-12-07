@@ -1275,3 +1275,22 @@ footer .social-links li:first-child {
    visibility: visible;
    transform: none;
 }
+
+#captchaContainer {
+   width: 100%;
+
+   float: right;
+}
+
+#captcha {
+
+   width: 100%;
+   display: inline-block;
+
+
+}
+
+.style_captchaContainer__LdFYB {
+   margin-top: 0.5rem;
+   display: inline-block;
+}

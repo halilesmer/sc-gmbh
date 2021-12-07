@@ -1,15 +1,26 @@
-import React, {useRef } from "react";
+import React, {useState, useRef } from "react";
 import { Fade, Slide } from "react-reveal";
 import emailjs from 'emailjs-com'
 import snackbar from "snackbar";
-//import '../../public/css/snackbar.css'
+import ClientCaptcha from "react-client-captcha";
 
-const Contact =(props)=> {
+
+
+const Contact = (props) => {
+  const [captchaCode, setCaptchaCode] = useState('')
+  const [captchaCodeInput, setCaptchaCodeInput] = useState('')
+  
+  const oncaptchaChange = (e) => {
+    setCaptchaCodeInput(e.target.value)
+  }
+
+  
   const form = useRef();
   
   const sendemail = (e) => {
       e.preventDefault();
-
+      console.log('captchaCodeInput === captchaCode: ', captchaCodeInput === captchaCode);
+    if (captchaCodeInput === captchaCode) {
       emailjs
         .sendForm(
           "service_7364xg5",
@@ -30,9 +41,15 @@ const Contact =(props)=> {
           }
       );
     e.target.reset();
-}
-
+    } else {
+      snackbar.duration = 2000;
+      return snackbar.show("Bitte");
+    }
+    
+    
+  }
   
+
   
     if (!props.data) return null;
 
@@ -129,6 +146,15 @@ const Contact =(props)=> {
                       required
                     ></textarea>
                   </div>
+                  <div id="captcha">
+                    <ClientCaptcha captchaCode={setCaptchaCode} />
+                    <input
+                      type="text"
+                      placeholder="Bitte lösen Sie Captcha richtig!"
+                      value={captchaCodeInput}
+                      onChange={oncaptchaChange}
+                    />
+                  </div>
 
                   <div>
                     <input type="submit" className="submit" value="Senden" />
@@ -139,11 +165,11 @@ const Contact =(props)=> {
                 </fieldset>
               </form>
 
-              <div id="message-warning"> Error boy</div>
+              {/*  <div id="message-warning"> Error boy</div>
               <div id="message-success">
                 <i className="fa fa-check"></i>Your message was sent, thank you!
                 <br />
-              </div>
+              </div> */}
             </div>
           </Slide>
 

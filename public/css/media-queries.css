@@ -518,4 +518,22 @@
       left: 10%;
       right: 10%;
    }
+}
+
+@media only screen and (max-width: 767px) {
+   #captcha {
+      height: auto;
+      margin: 2rem auto;
+      border: solid #607d8b 1px;
+      display: inline-block;
+      text-align: center;
+
    }
+}
+
+@media only screen and (max-width: 767px) {
+   .style_captchaContainer__LdFYB {
+      display: inline-flex;
+   }
+
+}
