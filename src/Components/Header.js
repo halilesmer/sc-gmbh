@@ -1,16 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 //import truck from "./truck.jpg";
 
-class Header extends Component {
-  render() {
-    if (!this.props.data) return null;
+const Header =(props)=> {
 
-    const project = this.props.data.project;
-    //const github = this.props.data.github;
-    const name = this.props.data.name;
-    const description = this.props.data.description;
+    if (!props.data) return null;
+
+    const project = props.data.project;
+    const name = props.data.name;
+    const description = props.data.description;
 
     return (
       <header id="home">
@@ -87,6 +86,6 @@ class Header extends Component {
       </header>
     );
   }
-}
+
 
 export default Header;

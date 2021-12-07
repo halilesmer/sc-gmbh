@@ -1,4 +1,4 @@
-import React, {useState, useRef } from "react";
+import {useState, useRef } from "react";
 import { Fade, Slide } from "react-reveal";
 import emailjs from 'emailjs-com'
 import snackbar from "snackbar";

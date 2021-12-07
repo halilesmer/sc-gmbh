@@ -1,21 +1,20 @@
-import React, { Component } from "react";
 import Fade from "react-reveal";
 
-class About extends Component {
-  render() {
-    if (!this.props.data) return null;
+const About =(props)=> {
 
-    const name = this.props.data.name;
-    //const profilepic = "images/" + this.props.data.image;
-    const logo = "images/" + this.props.data.image;
-    const bio = this.props.data.bio;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
+    if (!props.data) return null;
+
+    const name = props.data.name;
+    //const profilepic = "images/" + props.data.image;
+    const logo = "images/" + props.data.image;
+    const bio = props.data.bio;
+    const street = props.data.address.street;
+    const city = props.data.address.city;
+    const state = props.data.address.state;
+    const zip = props.data.address.zip;
+    const phone = props.data.phone;
+    const email = props.data.email;
+    const resumeDownload = props.data.resumedownload;
 
     return (
       <section id="about">
@@ -63,6 +62,6 @@ class About extends Component {
       </section>
     );
   }
-}
+
 
 export default About;
