@@ -1,6 +1,8 @@
 import React, {useRef } from "react";
 import { Fade, Slide } from "react-reveal";
 import emailjs from 'emailjs-com'
+import snackbar from "snackbar";
+//import '../../public/css/snackbar.css'
 
 const Contact =(props)=> {
   const form = useRef();
@@ -19,6 +21,9 @@ const Contact =(props)=> {
         .then(
           (result) => {
             console.log(result.text);
+            snackbar.gap = 950;
+            snackbar.duration = 3000;
+            return snackbar.show("Ihre Nachricht wurde Erfolgreich versendet!");
           },
           (error) => {
             console.log(error.text);
@@ -77,7 +82,7 @@ const Contact =(props)=> {
                       size="35"
                       id="contactName"
                       name="name"
-                      required="true"
+                      required
                       /* onChange={handleChange} */
                     />
                   </div>
@@ -92,20 +97,22 @@ const Contact =(props)=> {
                       size="35"
                       id="contactEmail"
                       name="email"
-                      required="true"
+                      required
                       /* onChange={handleChange} */
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="contactSubject">Betreff</label>
+                    <label htmlFor="contactSubject">
+                      Betreff<span className="required">*</span>
+                    </label>
                     <input
                       type="text"
                       defaultValue=""
                       size="35"
                       id="contactSubject"
                       name="subject"
-                      required="true"
+                      required
                       /* onChange={handleChange} */
                     />
                   </div>
@@ -119,12 +126,11 @@ const Contact =(props)=> {
                       rows="15"
                       id="contactMessage"
                       name="message"
-                      required="true"
+                      required
                     ></textarea>
                   </div>
 
                   <div>
-                    {/* <button className="submit">Senden</button> */}
                     <input type="submit" className="submit" value="Senden" />
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />

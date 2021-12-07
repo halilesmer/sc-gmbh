@@ -1016,7 +1016,7 @@ call-to-action .button {
 
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
-   margin: 12px 0;
+   margin-bottom: 40px;
    color: #EBEEEE;
    display: inline-block;
    float: left;
@@ -1045,7 +1045,7 @@ call-to-action .button {
    background-color: #0762f9;
 }
 
-#contact button.submit {
+#contact input.submit {
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1058,7 +1058,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 
-#contact button.submit:hover {
+#contact input.submit:hover {
    color: #0D0D0D;
    background: #fff;
 }
@@ -1246,4 +1246,32 @@ footer .social-links li:first-child {
 
 .github-btn {
    background-color: #34495e !important;
+}
+
+.snackbar {
+   display: inline-block;
+   position: fixed;
+   top: 5rem;
+   left: 30%;
+   right: 30%;
+
+   background: wheat;
+   color: black;
+   min-height: 50px;
+   min-width: 290px;
+   padding: 16px 24px 12px;
+   box-sizing: border-box;
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+
+   border-radius: 10px;
+   font-size: 100%;
+   transition: visibility 0.3s, transform 0.3s;
+   transform: translateY(100px);
+   visibility: hidden;
+   will-change: transform;
+}
+
+.snackbar--visible {
+   visibility: visible;
+   transform: none;
 }
