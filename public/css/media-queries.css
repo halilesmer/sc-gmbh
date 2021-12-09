@@ -513,12 +513,7 @@
 
 }
 
-@media only screen and (max-width: 480px) {
-   .snackbar {
-      left: 10%;
-      right: 10%;
-   }
-}
+
 
 @media only screen and (max-width: 767px) {
    #captcha {
@@ -534,6 +529,14 @@
 @media only screen and (max-width: 767px) {
    .style_captchaContainer__LdFYB {
       display: inline-flex;
+   }
+
+}
+
+@media only screen and (max-width: 767px) {
+   .widget_contact {
+      text-align: center;
+      
    }
 
 }

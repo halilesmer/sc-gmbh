@@ -19,7 +19,7 @@ const Contact = (props) => {
   
   const sendemail = (e) => {
       e.preventDefault();
-      console.log('captchaCodeInput === captchaCode: ', captchaCodeInput === captchaCode);
+      
     if (captchaCodeInput === captchaCode) {
       emailjs
         .sendForm(
@@ -100,7 +100,6 @@ const Contact = (props) => {
                       id="contactName"
                       name="name"
                       required
-                      /* onChange={handleChange} */
                     />
                   </div>
 
@@ -115,7 +114,6 @@ const Contact = (props) => {
                       id="contactEmail"
                       name="email"
                       required
-                      /* onChange={handleChange} */
                     />
                   </div>
 
@@ -130,9 +128,9 @@ const Contact = (props) => {
                       id="contactSubject"
                       name="subject"
                       required
-                      /* onChange={handleChange} */
                     />
                   </div>
+                  {/*-------------- Captcha -----------------*/}
 
                   <div>
                     <label htmlFor="contactMessage">
@@ -150,7 +148,7 @@ const Contact = (props) => {
                     <ClientCaptcha captchaCode={setCaptchaCode} />
                     <input
                       type="text"
-                      placeholder="Bitte lösen Sie Captcha richtig!"
+                      placeholder="Bitte Captcha hier eingeben!"
                       value={captchaCodeInput}
                       onChange={oncaptchaChange}
                     />

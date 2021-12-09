@@ -21,6 +21,13 @@
   will-change: transform;
 }
 
+@media only screen and (max-width: 480px) {
+  .snackbar {
+    left: 10%;
+    right: 10%;
+  }
+}
+
 .snackbar--visible {
   visibility: visible;
   transform: none;
