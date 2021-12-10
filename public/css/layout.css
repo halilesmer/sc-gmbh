@@ -1268,3 +1268,67 @@ footer .social-links li:first-child {
    margin-top: 0.5rem;
    display: inline-block;
 }
+
+/* --------------Styles Impressum ---------------------------*/
+#header {
+   /* font-size: 16px; */
+   text-align: center;
+   margin: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+   #header {
+      margin-top: 0;
+   }
+}
+
+main {
+   /* width: 70%; */
+   margin: 0 auto;
+   padding: 10rem 0 0 0;
+
+   max-width: 900px;
+   min-height: 675px;
+   text-align: center;
+   width: 80%;
+   /*     height: 100vh; */
+}
+
+main div {
+   text-align: left;
+   /* width: 80%; */
+   margin: auto;
+}
+
+main img {
+   width: 6rem;
+   transition: all 0.2s ease-in-out;
+   margin-top: 2rem;
+   margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 500px) {
+   main img {
+      width: 4rem;
+      transition: all 0.2s ease-in-out;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+   }
+}
+
+main img:hover {
+   transform: scale(1.2);
+}
+
+main p {
+   font-weight: 300;
+   margin-top: 1rem;
+}
+
+div a {
+   color: currentColor;
+}
+
+h5 {
+   margin: 1rem 0;
+}

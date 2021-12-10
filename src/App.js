@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import ReactGA from "react-ga";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Impressum from "../src/Components/Impressum.js";
+import Navigation from "../src/Components/Navigation.js";
+
+
 import $ from "jquery";
 import "./App.css";
 import Header from "./Components/Header";
@@ -14,7 +19,7 @@ class App extends Component {
     super(props);
     this.state = {
       foo: "bar",
-      resumeData: {}
+      resumeData: {},
     };
 
     ReactGA.initialize("UA-110570651-1");
@@ -26,13 +31,13 @@ class App extends Component {
       url: "./resumeData.json",
       dataType: "json",
       cache: false,
-      success: function(data) {
+      success: function (data) {
         this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err) {
+      error: function (xhr, status, err) {
         console.log(err);
         alert(err);
-      }
+      },
     });
   }
 
@@ -42,14 +47,40 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={<>
+              <div className="App">
+              <header id="home">
+              <Navigation />
+              <Header data={this.state.resumeData.main} />
+                </header>
+                
+                <About data={this.state.resumeData.main} />
+                <Resume data={this.state.resumeData.resume} />
+                <Portfolio data={this.state.resumeData.portfolio} />
+                <Contact data={this.state.resumeData.main} />
+                <Footer data={this.state.resumeData.main} />
+                </div>
+              </>
+              }
+          ></Route>
+        </Routes>
+
+        <Routes>
+          <Route
+            path="/impressum"
+            element={
+              <>
+                <Impressum />
+                <Navigation />
+              </>
+            }
+          ></Route>
+        </Routes>
+      </BrowserRouter>
     );
   }
 }

@@ -1,4 +1,7 @@
 import Fade from "react-reveal";
+import { Link } from "react-router-dom";
+
+
 
 const Footer =(props)=> {
   
@@ -22,12 +25,11 @@ const Footer =(props)=> {
               {/* <ul className="social-links">{networks}</ul> */}
 
               <ul className="copyright">
-
                 <li>
                   Design by{" "}
-                  <a title="impressum" href="http://www.styleshout.com/">
+                  <Link to="/impressum" title="impressum">
                     Impressum
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
