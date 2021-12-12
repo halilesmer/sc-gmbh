@@ -1269,7 +1269,7 @@ footer .social-links li:first-child {
    display: inline-block;
 }
 
-/* --------------Styles Impressum ---------------------------*/
+/* --------------Styles Impressum ---------------------------start*/
 #header {
    /* font-size: 16px; */
    text-align: center;
@@ -1332,3 +1332,5 @@ div a {
 h5 {
    margin: 1rem 0;
 }
+
+/* --------------Styles Impressum ---------------------------ends*/
