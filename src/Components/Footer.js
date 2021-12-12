@@ -36,7 +36,7 @@ const Footer =(props)=> {
           </Fade>
 
           <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
+            <a className="smoothscroll" title="Back to Top" href="#root">
               <i className="icon-up-open"></i>
             </a>
           </div>

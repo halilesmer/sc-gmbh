@@ -73,6 +73,7 @@ class App extends Component {
               <>
                 <Navigation />
                 <Impressum />
+                <Footer data={this.state.resumeData.main} />
               </>
             }
           ></Route>
