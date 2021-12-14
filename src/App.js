@@ -12,6 +12,7 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import ErrorPage from "./Components/ErrorPage.js";
 
 class App extends Component {
   constructor(props) {
@@ -43,6 +44,8 @@ class App extends Component {
   componentDidMount() {
     this.getResumeData();
   }
+
+
 
   render() {
     return (
@@ -77,6 +80,17 @@ class App extends Component {
               </>
             }
           ></Route>
+          {/* error page  start */}
+          <Route
+            path="*"
+            element={
+              <>
+                <Navigation />
+                <ErrorPage data={this.state.resumeData.errorPage} />
+              </>
+            }
+          ></Route>
+          {/*error page  ends */}
         </Routes>
       </BrowserRouter>
     );
