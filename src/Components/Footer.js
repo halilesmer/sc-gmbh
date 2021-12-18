@@ -1,5 +1,5 @@
 import Fade from "react-reveal";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -26,10 +26,16 @@ const Footer =(props)=> {
 
               <ul className="copyright">
                 <li>
-                  Design by{" "}
-                  <Link to="/impressum" title="impressum">
+                  <NavLink
+                    to="/impressum"
+                    title="impressum"
+                    className={({ isActive }) =>
+                      isActive ? "footerNavActive" : "footerNavNonActive"
+                    }
+                    end
+                  >
                     Impressum
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </div>

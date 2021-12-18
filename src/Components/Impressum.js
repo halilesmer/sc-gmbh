@@ -3,7 +3,7 @@ const Impressum = () => {
     
 
     return (
-      <main className="Main-Impressum">
+      <main className="main-Impressum">
         <div>
           <img src={"keine"} alt="demküpü-Logo" />
 

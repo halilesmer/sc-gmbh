@@ -189,7 +189,7 @@ ul#nav li a {
    line-height: 32px;
    text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #a9a9a9;
 
    -webkit-transition: color .2s ease-in-out;
    -moz-transition: color .2s ease-in-out;
@@ -1133,8 +1133,21 @@ footer {
    position: relative;
 }
 
+/* footer a {
+   color: #5f9ea0 !important;
+}
+
 footer a, footer a:visited {
-   color: #525252;
+   color: #d2691e;
+} */
+
+.footerNavActive {
+   color: #a05f5f !important;
+   font-weight: bolder;
+}
+
+.footerNavNonActive {
+   color: #a05f5f !important;
 }
 
 footer a:hover, footer a:focus {
@@ -1143,7 +1156,7 @@ footer a:hover, footer a:focus {
 
 /* copyright */
 footer .copyright {
-   margin: 0;
+   margin: 30px 0 0 0;
    padding: 0;
 }
 
@@ -1248,8 +1261,15 @@ footer .social-links li:first-child {
    background-color: #34495e !important;
 }
 
+footer .row {
+   width: 96%;
+   max-width: 1020px;
+   margin: 0px auto;
+   position: fixed;
+   bottom: 0;
+}
 
-
+/* --------------Captcha  ---------------------------start*/
 #captchaContainer {
    width: 100%;
 
@@ -1269,6 +1289,9 @@ footer .social-links li:first-child {
    display: inline-block;
 }
 
+/* --------------Captcha  ---------------------------start*/
+
+
 /* --------------Styles Impressum ---------------------------start*/
 #header {
    /* font-size: 16px; */
@@ -1282,7 +1305,7 @@ footer .social-links li:first-child {
    }
 }
 
-main {
+.main-Impressum {
    /* width: 70%; */
    margin: 0 auto;
    padding: 10rem 0 0 0;
@@ -1294,13 +1317,13 @@ main {
    /*     height: 100vh; */
 }
 
-main div {
+.main-Impressum div {
    text-align: left;
    /* width: 80%; */
    margin: auto;
 }
 
-main img {
+.main-Impressum img {
    width: 6rem;
    transition: all 0.2s ease-in-out;
    margin-top: 2rem;
@@ -1308,7 +1331,7 @@ main img {
 }
 
 @media screen and (max-width: 500px) {
-   main img {
+   .main-Impressum img {
       width: 4rem;
       transition: all 0.2s ease-in-out;
       margin-top: 1rem;
@@ -1316,11 +1339,11 @@ main img {
    }
 }
 
-main img:hover {
+.main-Impressum img:hover {
    transform: scale(1.2);
 }
 
-main p {
+.main-Impressum p {
    font-weight: 300;
    margin-top: 1rem;
 }
