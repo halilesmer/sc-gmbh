@@ -69,7 +69,7 @@ header .banner-text h1 {
 }
 
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 20px/1.9em 'librebaskerville-regular', serif;
    color: #ddd;
    margin: 0 auto;
    width: 70%;
@@ -131,6 +131,14 @@ header .scrolldown a {
 
 header .scrolldown a:hover {
    color: #0762f9;
+}
+
+header .slogan-header {
+   /* font: 80px/1.1em 'opensans-bold', sans-serif; */
+   letter-spacing: -1px;
+   margin: 3vh auto 3vh auto;
+   color: white;
+   font-size: 2.5vw;
 }
 
 /* primary navigation

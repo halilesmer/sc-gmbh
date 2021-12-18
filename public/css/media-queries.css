@@ -52,6 +52,12 @@
       letter-spacing: 1.5px;
    }
 
+   header .slogan-header {
+      /* font: 80px/1.1em 'opensans-bold', sans-serif; */
+      /*  letter-spacing: -1px;
+      margin: 0 auto 12px auto; */
+      font-size: 4vw;
+   }
 
    /* About Section
    ------------------------------------------------------------------- */
@@ -251,6 +257,12 @@
       display: none;
    }
 
+   header .slogan-header {
+      /* font: 80px/1.1em 'opensans-bold', sans-serif; */
+      letter-spacing: -1px;
+      margin: 0 auto 12px auto;
+      font-size: 4vw;
+   }
 
    /* About Section
    -------------------------------------------------------------------- */
@@ -268,6 +280,13 @@
       padding-right: 30px;
    }
 
+ /*   #about h2 {
+      text-align: center;
+   }
+
+   #about p {
+      text-align: center;
+   } */
 
    /* Resume Section
    --------------------------------------------------------------------- */
@@ -488,6 +507,7 @@
    header .banner-text h3 {
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
+      color: white;
    }
 
    /* header social links */
@@ -536,7 +556,7 @@
 @media only screen and (max-width: 767px) {
    .widget_contact {
       text-align: center;
-      
+
    }
 
 }

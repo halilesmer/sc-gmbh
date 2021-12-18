@@ -1,13 +1,15 @@
 {
   "main": {
     "name": "Silver Connect GmbH",
-    "description": "Nisi nulla velit eiusmod sit irure. Ullamco Lorem mollit exercitation nisi tempor eiusmod eiusmod culpa amet commodo. Anim adipisicing commodo ex commodo aute esse nostrud velit. Magna culpa laborum laborum incididunt deserunt dolor laboris magna officia occaecat anim sunt. Qui aliquip cupidatat ipsum dolore adipisicing non enim .",
+    "slogan": "Zuverlässig. Schnell. Pünktlich.",
+    "description": "Wir bieten optimale Lösungen für Ihre Transporte in Berlin. Wir stehen für höchste Leistung und maßgeschneiderte Konzepte für Ihre logistischen Anforderungen.",
     "image": "logo.jpg",
     "image-logo": "logo.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "aboutUsText": "Wir sind Ihr Experte für Dienstleistungen, mit dem Schwerpunkt auf Paket- und Kurierdienste. Gegründet 2014 hat unser Team viel Erfahrung darin, Transporte zur vollsten Zufriedenheit unserer Kunden zu realisieren. In uns finden Sie ein Partner für schnelle, zuverlässige und kostenbewusste Transportleistungen sowie kundenorientierten Service.",
+    "ourCustomerText": "Unser Unternehmen hat langjährige Geschäftsbeziehungen zu vielen Logistikunternehmen in und um Berlin. Zu unseren Kunden zählen z.B. GLS, DHL sowie mittelständische und kleine Unternehmen. Wir erbringen verschiedene Dienstleistungen: Dazu zählt unser Paketdienst und unser Kurierdienst. Außerdem vermitteln wir in Zusammenarbeit mit unseren Partnern auf die Anfragen unseren Kunden hin individuell abgestimmte Logistiklösungen.",
     "contactmessage": "Ihr direkter Draht zu uns:",
     "email": "info@silverconnect.de",
-    "phone": "+49 (0) 17631491603",
+    "phone": "+49 (0) 17610628630",
     "github": "",
     "project": "https://github.com/nordicgiant2/react-nice-resume",
     "address": {
@@ -16,8 +18,8 @@
       "state": "Berlin",
       "zip": "12199"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "http://www.pdf.com",
+    "pdfDownload": "http://www.pdf.com",
     "social": [
       {
         "name": "facebook",

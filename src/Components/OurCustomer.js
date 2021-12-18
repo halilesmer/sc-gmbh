@@ -1,20 +1,20 @@
 import Fade from "react-reveal";
 
-const About =(props)=> {
+const OurCustomer =(props)=> {
 
     if (!props.data) return null;
 
     const name = props.data.name;
     //const profilepic = "images/" + props.data.image;
     const logo = "images/" + props.data.image;
-    const aboutUsText = props.data.aboutUsText;
+    const ourCostumer = props.data.ourCustomerText;
     const street = props.data.address.street;
     const city = props.data.address.city;
     const state = props.data.address.state;
     const zip = props.data.address.zip;
     const phone = props.data.phone;
     const email = props.data.email;
-    const resumeDownload = props.data.resumedownload;
+    /* const resumeDownload = props.data.resumedownload; */
 
     return (
       <section id="about">
@@ -28,10 +28,10 @@ const About =(props)=> {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>Über Uns</h2>
+              <h2>Unsere Kunden</h2>
 
-              <p>{aboutUsText}</p>
-              <div className="row">
+              <p>{ourCostumer}</p>
+              {/* <div className="row">
                 <div className="columns contact-details">
                   <h2>Kontakt</h2>
                   <p className="address">
@@ -48,14 +48,7 @@ const About =(props)=> {
                     <span>{email}</span>
                   </p>
                 </div>
-               {/*  <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
-                  </p>
-                </div> */}
-              </div>
+              </div> */}
             </div>
           </div>
         </Fade>
@@ -64,4 +57,4 @@ const About =(props)=> {
   }
 
 
-export default About;
+export default OurCustomer;
