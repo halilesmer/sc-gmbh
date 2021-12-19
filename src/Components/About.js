@@ -14,7 +14,7 @@ const About =(props)=> {
     const zip = props.data.address.zip;
     const phone = props.data.phone;
     const email = props.data.email;
-    const resumeDownload = props.data.resumedownload;
+    //const resumeDownload = props.data.resumedownload;
 
     return (
       <section id="about">

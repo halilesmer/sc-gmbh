@@ -61,28 +61,40 @@
 
    /* About Section
    ------------------------------------------------------------------- */
-   #about .profile-pic {
+   #about .profile-pic,
+   #ourCustomer .profile-pic {
       width: 114px;
       height: 114px;
       margin-left: 12px;
    }
 
-   #about .contact-details {
+   #about .contact-details,
+   #ourCustomer .contact-details {
       width: 50%;
    }
 
-   #about .download {
+   #about .download,
+   #ourCustomer .download {
       width: 50%;
    }
 
    /* Resume Section
    ------------------------------------------------------------------- */
-   #resume h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
+   #logisticsServices h1 {
+      font: 40px/24px 'opensans-bold', sans-serif;
    }
 
-   #resume .main-col {
+   #logisticsServices .main-col {
       padding-right: 5%;
+      padding: 0 5% 0 3%;
+   }
+
+   .nine.columns.main-col {
+      padding-left: 1rem;
+   }
+
+   img.profile-pic {
+      margin-top: 3rem;
    }
 
    /* Testimonials Section
@@ -266,21 +278,24 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic {
+   #about .profile-pic,
+   #ourCustomer .profile-pic {
       display: none;
    }
 
-   #about .download .button {
+   #about .download .button,
+   #ourCustomer .download .button {
       width: 100%;
       text-align: center;
       padding: 15px 20px;
    }
 
-   #about .main-col {
+   #about .main-col,
+   #ourCustomer .main-col {
       padding-right: 30px;
    }
 
- /*   #about h2 {
+   /*   #about h2 {
       text-align: center;
    }
 
@@ -290,21 +305,25 @@
 
    /* Resume Section
    --------------------------------------------------------------------- */
-   #resume .header-col {
+   #logisticsServices .header-col {
       padding-top: 0;
       margin-bottom: 48px;
       text-align: center;
    }
 
-   #resume h1 {
+   #logisticsServices h1 {
       letter-spacing: 3px;
+      margin: 0 auto 2px auto;
+      font: 5.5vw 'opensans-bold', sans-serif;
    }
 
-   #resume .main-col {
-      padding-right: 30px;
+   #logisticsServices .main-col {
+      /* padding-right: 30px; */
+      margin: 1rem 0 2rem 0;
    }
 
-   #resume h3, #resume .info {
+
+   #logisticsServices h3, #logisticsServices .info {
       text-align: center;
    }
 
@@ -348,6 +367,7 @@
    .popup-modal {
       max-width: 85%;
    }
+
 
 
    /* Testimonials Section

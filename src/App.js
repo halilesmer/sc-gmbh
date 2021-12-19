@@ -10,7 +10,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 import OurCustomer from "./Components/OurCustomer";
-import Resume from "./Components/Resume";
+import LogisticsServices from "./Components/LogisticsServices";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 import ErrorPage from "./Components/ErrorPage.js";
@@ -63,8 +63,10 @@ class App extends Component {
                   </header>
 
                   <About data={this.state.resumeData.main} />
+                  <LogisticsServices
+                  data={this.state.resumeData.logisticsServices}
+                  />
                   <OurCustomer data={this.state.resumeData.main} />
-                  <Resume data={this.state.resumeData.resume} />
                   <Portfolio data={this.state.resumeData.portfolio} />
                   <Contact data={this.state.resumeData.main} />
                   <Footer data={this.state.resumeData.main} />

@@ -19,8 +19,33 @@ const Portfolio =(props)=> {
       );
     });
 
-    return (
-      <section id="portfolio">
+  return (
+    
+    <section id="portfolio">
+        <Fade left duration={1000} distance="40px">
+          <div className="row">
+            <div className="twelve columns collapsed">
+              <h1>Diese sind unsere Stärken</h1>
+
+              <div
+                id="portfolio-wrapper"
+                className="bgrid-quarters s-bgrid-thirds cf"
+              >
+                {projects}
+              </div>
+            </div>
+          </div>
+        </Fade>
+      </section>
+
+      
+    );
+  }
+
+
+export default Portfolio;
+
+  /* <section id="portfolio">
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
@@ -35,9 +60,4 @@ const Portfolio =(props)=> {
             </div>
           </div>
         </Fade>
-      </section>
-    );
-  }
-
-
-export default Portfolio;
+      </section> */

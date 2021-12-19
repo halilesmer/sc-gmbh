@@ -66,9 +66,9 @@ const Contact = (props) => {
         <Fade bottom duration={1000}>
           <div className="row section-head">
             <div className="two columns header-col">
-              <h1>
+              {/* <h1>
                 <span>Get In Touch.</span>
-              </h1>
+              </h1> */}
             </div>
 
             <div className="ten columns">

@@ -4,9 +4,15 @@
     "slogan": "Zuverlässig. Schnell. Pünktlich.",
     "description": "Wir bieten optimale Lösungen für Ihre Transporte in Berlin. Wir stehen für höchste Leistung und maßgeschneiderte Konzepte für Ihre logistischen Anforderungen.",
     "image": "logo.jpg",
+    "portfolioImg1": "01.jpg",
+    "portfolioImg2": "02.jpg",
+    "portfolioImg3": "03.jpg",
+    "portfolioImg4": "04.jpg",
+    "portfolioImg5": "05.jpg",
+    "portfolioImg6": "06.jpg",
     "image-logo": "logo.jpg",
-    "aboutUsText": "Wir sind Ihr Experte für Dienstleistungen, mit dem Schwerpunkt auf Paket- und Kurierdienste. Gegründet 2014 hat unser Team viel Erfahrung darin, Transporte zur vollsten Zufriedenheit unserer Kunden zu realisieren. In uns finden Sie ein Partner für schnelle, zuverlässige und kostenbewusste Transportleistungen sowie kundenorientierten Service.",
-    "ourCustomerText": "Unser Unternehmen hat langjährige Geschäftsbeziehungen zu vielen Logistikunternehmen in und um Berlin. Zu unseren Kunden zählen z.B. GLS, DHL sowie mittelständische und kleine Unternehmen. Wir erbringen verschiedene Dienstleistungen: Dazu zählt unser Paketdienst und unser Kurierdienst. Außerdem vermitteln wir in Zusammenarbeit mit unseren Partnern auf die Anfragen unseren Kunden hin individuell abgestimmte Logistiklösungen.",
+    "aboutUsText": "Wir sind Ihr Experte für Dienstleistungen, mit dem Schwerpunkt auf Paket- und Kurierdienste. Gegründet 2014 hat unser Team viel Erfahrung darin, Transporte zur vollsten Zufriedenheit unserer Kunden zu realisieren. In uns finden Sie ein Partner für schnelle, zuverlässige und kostenbewusste Transportleistungen sowie kundenorientierten Service. Unsere Flotte besteht aus modernen Fahrzeugen um unseren Kunden  Zuverlässigkeit und Qualität zu bieten.",
+    "ourCustomerText": "Unser Unternehmen führt langjährige Geschäftsbeziehungen zu namhaften Logistikunternehmen in und um Berlin. Zu unseren Kunden zählen z.B. GLS, DHL sowie mittelständische und kleine Unternehmen. Wir erbringen verschiedene Dienstleistungen: Dazu zählt unser Paketdienst und unser Kurierdienst. Außerdem vermitteln wir in Zusammenarbeit mit unseren Partnern auf die Anfragen unseren Kunden hin individuell abgestimmte Logistiklösungen.",
     "contactmessage": "Ihr direkter Draht zu uns:",
     "email": "info@silverconnect.de",
     "phone": "+49 (0) 17610628630",
@@ -48,137 +54,142 @@
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+  "logisticsServices":{
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "parcelService": [
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Paketdienst",
+        "degree": "Wir sorgen dafür, dass Ihre Pakete am gewünschten Ort zur richtigen Zeit ankommen.",
+        "graduated": "",
+        "description": "Unsere gut ausgerüstete Flotte und unser eingespieltes Team sorgen für den reibungslosen Verlauf des Pakettransportes.",
+        "image": "images/portfolio/01.jpg"
       }
     ],
-    "work":[
+    "courierService": [
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "school": "Kurierdienst",
+        "degree": "Wir bringen Ihre Sendung mit unsere Kurierdienst sicher und schnell ans Ziel.",
+        "graduated": "March 2013",
+        "description": "Unsere Fahrer sind geschult, umsichtig und zuverlässig. Ob Dierktfahrt, Sameday oder Overnight - wir finden eine passgenaue Lösung für Sie."
       }
     ],
-    "skills":[
+    "logistics": [
       {
-        "name":"Python",
-        "level":"60%"
+        "school": "Vermittlung von Logistik- und Speditionslösungen",
+        "degree": "Für große Lieferungen und Transporte vermitteln wir Logistik- und Speditionlösungen.",
+        "graduated": "March 2018 - Present",
+        "description": "Zusammen mit unseren Partnerunternehmen sorgen wir für optimale durchführung Ihres Auftrags großer Transporte."
+      }
+    ],
+    "baggageLogistics": [
+      {
+        "school": "Gepäcklogistik",
+        "degree": "Wir transportieren sicher Ihr Gepäck.",
+        "graduated": "March 2017 - February 2018",
+        "description": "Ihr Gepäck ist bei uns in guten Händen. Wir liefern es zuverlässig und pünktlich an das Ziel Ihrer Wahl."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "60%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name": "VueJs",
+        "level": "55%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name": "ReactJs",
+        "level": "50%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name": "CSS",
+        "level": "90%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "name": "PHP",
+        "level": "80%"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "name": "Swift",
+        "level": "50%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name": "JAVA",
+        "level": "80%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Umfangreicher Fuhrpark",
+        "category":"",
         "image":"01.jpg",
         "url":"https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Zusammenarbeit mit Partnern",
+        "category":"",
         "image":"02.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Erfahrener Service",
+        "category":"",
         "image":"03.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
+        "title":"Zuverlässiger Verwaltung",
         "category":"A React based resume website template",
         "image":"04.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
+        "title":"Transparente Lieferketten",
         "category":"(MVP Only) A React and Meteor based chat University project.",
         "image":"05.jpg",
         "url":"http://www.smirkspace.com"
       },
       {
-        "title":"Canadian Wanderlust",
+        "title":"Eingespielte Logistikprozesse",
         "category":"My Travel Blog for my post-university travels",
         "image":"06.jpg",
         "url":"https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
+        "title":"Flexibilität",
         "category":"(offline now) A fighting gear company I started",
         "image":"01.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
+        "title":"Pünktlichkeit",
         "category":"Website I built for a restaurant I like in Thailand",
         "image":"02.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Original Thai Food",
+        "title":"Sicherheit",
         "category":"Website I built for a restaurant I like in Thailand",
         "image":"03.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
+        "title":"Kundenoriertierung",
         "category":"A React based resume website template",
         "image":"04.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
+        "title":"Kostenbewusste Lösungen",
         "category":"(MVP Only) A React and Meteor based chat University project.",
         "image":"05.jpg",
         "url":"http://www.smirkspace.com"
       },
       {
-        "title":"Canadian Wanderlust",
+        "title":"Einsatzbereitschaft",
         "category":"My Travel Blog for my post-university travels",
         "image":"06.jpg",
         "url":"https://www.canadianwanderlust.com"

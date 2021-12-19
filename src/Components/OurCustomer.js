@@ -3,21 +3,13 @@ import Fade from "react-reveal";
 const OurCustomer =(props)=> {
 
     if (!props.data) return null;
-
-    const name = props.data.name;
-    //const profilepic = "images/" + props.data.image;
+  
     const logo = "images/" + props.data.image;
     const ourCostumer = props.data.ourCustomerText;
-    const street = props.data.address.street;
-    const city = props.data.address.city;
-    const state = props.data.address.state;
-    const zip = props.data.address.zip;
-    const phone = props.data.phone;
-    const email = props.data.email;
-    /* const resumeDownload = props.data.resumedownload; */
+ 
 
     return (
-      <section id="about">
+      <section id="ourCustomer">
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">

@@ -21,19 +21,19 @@ const Navigation = () => {
 
         <li>
           <a className="smoothscroll" href="#about">
-            UNSERE KUNDEN
+            Über Uns
           </a>
         </li>
 
         <li>
-          <a className="smoothscroll" href="#resume">
+          <a className="smoothscroll" href="#logisticsServices">
             LOGISTIKDIENSTLEISTUNGEN
           </a>
         </li>
 
         <li>
-          <a className="smoothscroll" href="#portfolio">
-            Über Uns
+          <a className="smoothscroll" href="#ourCustomer">
+            UNSERE KUNDEN
           </a>
         </li>
 

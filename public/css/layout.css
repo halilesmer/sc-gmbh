@@ -219,63 +219,74 @@ ul#nav li.current a {
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
-#about {
+#about, #ourCustomer {
    background: #000524;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited {
+#about a, #about a:visited,
+#ourCustomer a, #about a:visited {
    color: #fff;
 }
 
-#about a:hover, #about a:focus {
+#about a:hover, #about a:focus,
+#ourCustomer a, #about a:focus {
    color: #0762f9;
 }
 
-#about h2 {
+#about h2,
+#ourCustomer h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
 
-#about p {
+#about p,
+#ourCustomer p {
    line-height: 30px;
    color: #ccc;
 }
 
-#about .profile-pic {
+#about .profile-pic,
+#ourCustomer .profile-pic {
    position: relative;
    width: 120px;
    height: 120px;
    border-radius: 100%;
 }
 
-#about .contact-details {
+#about .contact-details,
+#ourCustomer .contact-details {
    width: 41.66667%;
 }
 
-#about .download {
+#about .download,
+#ourCustomer .download {
    width: 58.33333%;
    padding-top: 6px;
 }
 
-#about .main-col {
+#about .main-col,
+#ourCustomer .main-col {
    padding-right: 5%;
 }
 
-#about .download .button {
+#about .download .button,
+#ourCustomer .download .button {
    margin-top: 6px;
    background: #444;
 }
 
-#about .download .button:hover {
+#about .download .button:hover,
+#ourCustomer .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
 
-#about .download .button i {
+#about .download .button i,
+#ourCustomer .download .button i {
    margin-right: 15px;
    font-size: 20px;
 }
@@ -285,63 +296,65 @@ ul#nav li.current a {
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#logisticsServices {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited {
+#logisticsServices a, #logisticsServices a:visited {
    color: #0762f9;
 }
 
-#resume a:hover, #resume a:focus {
+#logisticsServices a:hover, #logisticsServices a:focus {
    color: #313131;
 }
 
-#resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+#logisticsServices h1 {
+   font: 30px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 6rem;
 }
 
-#resume h1 span {
+#logisticsServices h1 span {
    border-bottom: 3px solid #0762f9;
    padding-bottom: 6px;
 }
 
-#resume h3 {
+#logisticsServices h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col {
+#logisticsServices .header-col {
    padding-top: 9px;
 }
 
-#resume .main-col {
+#logisticsServices .main-col {
    padding-right: 10%;
 }
 
 .education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
+   /* margin-bottom: 48px;
+   padding-bottom: 24px; */
    border-bottom: 1px solid #E8E8E8;
 }
 
-#resume .info {
+#logisticsServices .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
 
-#resume .info span {
+#logisticsServices .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
 
-#resume .date {
+#logisticsServices .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -659,6 +672,14 @@ ul#nav li.current a {
    margin-left: 24px;
 }
 
+.three.columns.header-col {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.nine.columns.main-col {
+   padding-left: 10rem;
+}
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
@@ -1076,6 +1097,10 @@ call-to-action .button {
    font-size: 13px;
 }
 
+.ten.columns {
+   padding-left: 7rem;
+}
+
 #message-warning, #message-success {
    display: none;
    background: #0F0F0F;
@@ -1273,7 +1298,6 @@ footer .row {
    width: 96%;
    max-width: 1020px;
    margin: 0px auto;
-   position: fixed;
    bottom: 0;
 }
 

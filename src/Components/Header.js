@@ -5,7 +5,7 @@ import Fade from "react-reveal";
 const Header = (props) => {
   if (!props.data) return null;
 
-  const project = props.data.project;
+  /* const project = props.data.project; */
   const name = props.data.name;
   const slogan = props.data.slogan;
   const description = props.data.description;
