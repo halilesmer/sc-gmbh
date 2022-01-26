@@ -3,6 +3,11 @@ import React from "react";
 
 const ErrorPage = (props) => {
   //console.log("data: ", props.data.errorPage);
+  const styleImgCont = {
+    height: "100vh",
+    margin: 0,
+    position: "relative",
+  };
   const styleImg = {
     color: '#fff',
     textAlign: 'center',
@@ -12,11 +17,7 @@ const ErrorPage = (props) => {
     webkitTransform: 'translateX(-50%) translateY(-50%)',
     transform: 'translateX(-50%) translateY(-50%)',
   }
-  const styleImgCont = {
-    height: '100vh',
-    margin: 0,
-    position: 'relative',
-  }
+  
   return (
     <div style={styleImgCont}>
       <div style={styleImg}>

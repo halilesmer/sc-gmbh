@@ -72,7 +72,9 @@ const LogisticsServices = (props) => {
           <div className="three columns header-col">
             <img
               className="profile-pic"
-              src={"images/portfolio/01.jpg"}
+              width={383}
+              height={232}
+              src={"images/portfolio/01.Webp"}
               alt="paketdienst"
             />
           </div>
@@ -89,7 +91,9 @@ const LogisticsServices = (props) => {
           <div className="three columns header-col">
             <img
               className="profile-pic"
-              src={"images/portfolio/01.jpg"}
+              width={383}
+              height={232}
+              src={"images/portfolio/02.WebP"}
               alt="paketdienst"
             />
           </div>
@@ -107,7 +111,9 @@ const LogisticsServices = (props) => {
           <div className="three columns header-col">
             <img
               className="profile-pic"
-              src={"images/portfolio/01.jpg"}
+              width={383}
+              height={232}
+              src={"images/portfolio/03.jpg"}
               alt="paketdienst"
             />
           </div>
@@ -125,7 +131,9 @@ const LogisticsServices = (props) => {
           <div className="three columns header-col">
             <img
               className="profile-pic"
-              src={"images/portfolio/01.jpg"}
+              width={383}
+              height={232}
+              src={"images/portfolio/04.jpg"}
               alt="paketdienst"
             />
           </div>

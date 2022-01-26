@@ -57,6 +57,7 @@ class App extends Component {
             element={
               <>
                 <div className="App">
+                  
                   <header id="home">
                     <Navigation />
                     <Header data={this.state.resumeData.main} />
@@ -64,7 +65,7 @@ class App extends Component {
 
                   <About data={this.state.resumeData.main} />
                   <LogisticsServices
-                  data={this.state.resumeData.logisticsServices}
+                    data={this.state.resumeData.logisticsServices}
                   />
                   <OurCustomer data={this.state.resumeData.main} />
                   <Portfolio data={this.state.resumeData.portfolio} />

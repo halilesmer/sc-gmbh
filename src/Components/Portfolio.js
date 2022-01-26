@@ -4,9 +4,9 @@ import Fade from "react-reveal";
 let id = 0;
 const Portfolio =(props)=> {
 
-    if (!props.data) return null;
+/*     if (!props.data) return null;
 
-    const projects = props.data.projects.map(function (projects) {
+    const projects = props.data.projects.map( (projects) => {
       let projectImage = "images/portfolio/" + projects.image;
 
       return (
@@ -17,15 +17,33 @@ const Portfolio =(props)=> {
           </div>
         </div>
       );
-    });
+    }); */
+      if (!props.data) return null;
+
+      const projects = props.data.projects.map((projects) => {
+        let projectImage = "images/portfolio/" + projects.image;
+
+        return (
+          <Fade left duration={1000} distance="40px">
+            <div key={id++} className="columns portfolio-item">
+              <div className="item-wrap">
+                
+         
+                <Zmage alt={projects.title} src={projectImage} widt={350} heigth={200} />
+                <div style={{ textAlign: "center" }}>{projects.title}</div>
+              </div>
+            </div>
+          </Fade>
+        );
+      });
 
   return (
     
     <section id="portfolio">
-        <Fade left duration={1000} distance="40px">
+        
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Diese sind unsere Stärken</h1>
+              <h1>Dies sind unsere Stärken</h1>
 
               <div
                 id="portfolio-wrapper"
@@ -34,8 +52,10 @@ const Portfolio =(props)=> {
                 {projects}
               </div>
             </div>
-          </div>
-        </Fade>
+      </div>
+      
+      
+        
       </section>
 
       

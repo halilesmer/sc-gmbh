@@ -330,16 +330,36 @@ ul#nav li.current a {
 
 #logisticsServices .header-col {
    padding-top: 9px;
+   width: auto;
+
 }
 
 #logisticsServices .main-col {
-   padding-right: 10%;
+
+   padding: 0 0 0 10rem;
+}
+
+.nine.columns.main-col {
+   width: 62%;
+}
+
+@media screen and (max-width: 1050px) {
+   .nine.columns.main-col {
+      width: 55%;
+      padding: 0 !important;
+   }
+}
+
+@media screen and (max-width: 940px) {
+   .nine.columns.main-col {
+      width: 45%;
+   }
 }
 
 .education, .work {
    /* margin-bottom: 48px;
    padding-bottom: 24px; */
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 25px solid #E8E8E8;
 }
 
 #logisticsServices .info {
@@ -515,6 +535,23 @@ ul#nav li.current a {
 }
 
 /* Portfolio Content */
+div#portfolio-wrapper {
+   width: 77%;
+   margin: 0 auto;
+}
+
+@media screen and (max-width: 1055px) {
+   div#portfolio-wrapper {
+      width: 81%;
+   }
+}
+
+@media screen and (max-width: 1005px) {
+   div#portfolio-wrapper {
+      width: 390px;
+   }
+}
+
 #portfolio-wrapper .columns {
    margin-bottom: 36px;
 }
@@ -677,9 +714,6 @@ ul#nav li.current a {
    margin: 0 !important;
 }
 
-.nine.columns.main-col {
-   padding-left: 10rem;
-}
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
@@ -1386,6 +1420,15 @@ div a {
 
 h5 {
    margin: 1rem 0;
+}
+
+.react-reveal.columns.portfolio-item {
+   /* padding-left: 10% !important; */
+   width: 390px;
+}
+
+.react-reveal.row {
+   padding-top: 1em;
 }
 
 /* --------------Styles Impressum ---------------------------ends*/

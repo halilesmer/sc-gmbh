@@ -23,6 +23,8 @@ const About =(props)=> {
             <div className="three columns">
               <img
                 className="profile-pic"
+                width={120}
+                height={120}
                 src={logo}
                 alt="Silver Connect Logo"
               />

@@ -4,14 +4,14 @@
     "slogan": "Zuverlässig. Schnell. Pünktlich.",
     "description": "Wir bieten optimale Lösungen für Ihre Transporte in Berlin. Wir stehen für höchste Leistung und maßgeschneiderte Konzepte für Ihre logistischen Anforderungen.",
     "image": "logo.jpg",
-    "portfolioImg1": "01.jpg",
-    "portfolioImg2": "02.jpg",
+    "portfolioImg1": "01.webp",
+    "portfolioImg2": "02.WebP",
     "portfolioImg3": "03.jpg",
     "portfolioImg4": "04.jpg",
     "portfolioImg5": "05.jpg",
     "portfolioImg6": "06.jpg",
     "image-logo": "logo.jpg",
-    "aboutUsText": "Wir sind Ihr Experte für Dienstleistungen, mit dem Schwerpunkt auf Paket- und Kurierdienste. Gegründet 2014 hat unser Team viel Erfahrung darin, Transporte zur vollsten Zufriedenheit unserer Kunden zu realisieren. In uns finden Sie ein Partner für schnelle, zuverlässige und kostenbewusste Transportleistungen sowie kundenorientierten Service. Unsere Flotte besteht aus modernen Fahrzeugen um unseren Kunden  Zuverlässigkeit und Qualität zu bieten.",
+    "aboutUsText": "Wir sind Ihr Experte für Dienstleistungen, mit dem Schwerpunkt auf Paket- und Kurierdienste. Gegründet 2014 hat unser Team viel Erfahrung darin, Transporte zur vollsten Zufriedenheit unserer Kunden zu realisieren. In uns finden Sie einen Partner für schnelle, zuverlässige und kostenbewusste Transportleistungen sowie kundenorientierten Service. Unsere Flotte besteht aus modernen Fahrzeugen, um unseren Kunden  Zuverlässigkeit und Qualität zu bieten.",
     "ourCustomerText": "Unser Unternehmen führt langjährige Geschäftsbeziehungen zu namhaften Logistikunternehmen in und um Berlin. Zu unseren Kunden zählen z.B. GLS, DHL sowie mittelständische und kleine Unternehmen. Wir erbringen verschiedene Dienstleistungen: Dazu zählt unser Paketdienst und unser Kurierdienst. Außerdem vermitteln wir in Zusammenarbeit mit unseren Partnern auf die Anfragen unseren Kunden hin individuell abgestimmte Logistiklösungen.",
     "contactmessage": "Ihr direkter Draht zu uns:",
     "email": "info@silverconnect.de",
@@ -125,74 +125,26 @@
       {
         "title":"Umfangreicher Fuhrpark",
         "category":"",
-        "image":"01.jpg",
+        "image":"fleet.WebP",
         "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Zusammenarbeit mit Partnern",
-        "category":"",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
       },
       {
         "title":"Erfahrener Service",
         "category":"",
-        "image":"03.jpg",
+        "image":"service.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Zuverlässiger Verwaltung",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Transparente Lieferketten",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Eingespielte Logistikprozesse",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Flexibilität",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
       },
       {
         "title":"Pünktlichkeit",
         "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
+        "image":"punctuality.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
         "title":"Sicherheit",
         "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
+        "image":"safety.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Kundenoriertierung",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Kostenbewusste Lösungen",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Einsatzbereitschaft",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
       }
     ]
   }
