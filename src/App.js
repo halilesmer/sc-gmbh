@@ -12,10 +12,11 @@ import About from "./Components/About";
 import OurCustomer from "./Components/OurCustomer";
 import LogisticsServices from "./Components/LogisticsServices";
 import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
+import Strengths from "./Components/Strengths";
 import ErrorPage from "./Components/ErrorPage.js";
 
 class App extends Component {
+  
   constructor(props) {
     super(props);
     this.state = {
@@ -57,7 +58,6 @@ class App extends Component {
             element={
               <>
                 <div className="App">
-                  
                   <header id="home">
                     <Navigation />
                     <Header data={this.state.resumeData.main} />
@@ -65,10 +65,16 @@ class App extends Component {
 
                   <About data={this.state.resumeData.main} />
                   <LogisticsServices
+                    
                     data={this.state.resumeData.logisticsServices}
                   />
-                  <OurCustomer data={this.state.resumeData.main} />
-                  <Portfolio data={this.state.resumeData.portfolio} />
+                  <OurCustomer
+                  
+                    data={this.state.resumeData.main}
+                  />
+                  <Strengths
+                    data={this.state.resumeData.strengths}
+                  />
                   <Contact data={this.state.resumeData.main} />
                   <Footer data={this.state.resumeData.main} />
                 </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import { Link } from "react-scroll";
 
 const Header = (props) => {
   if (!props.data) return null;
@@ -12,9 +13,8 @@ const Header = (props) => {
 
   return (
     <>
-      <ParticlesBg type="lines" bg={true} />
-
-      <div className="row banner">
+      <div className="row banner start">
+        <ParticlesBg type="lines" bg={true} />
         <div className="banner-text">
           <Fade bottom>
             <h1 className="responsive-headline">{name}</h1>
@@ -35,11 +35,21 @@ const Header = (props) => {
           </Fade> */}
         </div>
       </div>
-      <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
-          <i className="icon-down-circle"></i>
-        </a>
-      </p>
+      {
+        <p className="scrolldown">
+          <Link
+            className="smoothscroll"
+            to="about"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={400}
+          >
+            <i className="icon-down-circle"></i>
+          </Link>
+        </p>
+      }
     </>
   );
 };

@@ -1,9 +1,14 @@
 import Fade from "react-reveal";
-import { NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
+import { animateScroll as scroll } from "react-scroll";
 
 
 
 const Footer =(props)=> {
+  function scrollToTop()  {
+    scroll.scrollToTop();
+  };
+  
   
     if (!props.data) return null;
 
@@ -42,9 +47,9 @@ const Footer =(props)=> {
           </Fade>
 
           <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#root">
-              <i className="icon-up-open"></i>
-            </a>
+            <div className="smoothscroll" title="Back to Top"></div>
+
+            <i className="icon-up-open" onClick={scrollToTop}></i>
           </div>
         </div>
       </footer>

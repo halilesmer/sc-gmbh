@@ -4,12 +4,12 @@
     "slogan": "Zuverlässig. Schnell. Pünktlich.",
     "description": "Wir bieten optimale Lösungen für Ihre Transporte in Berlin. Wir stehen für höchste Leistung und maßgeschneiderte Konzepte für Ihre logistischen Anforderungen.",
     "image": "logo.jpg",
-    "portfolioImg1": "01.webp",
-    "portfolioImg2": "02.WebP",
-    "portfolioImg3": "03.jpg",
-    "portfolioImg4": "04.jpg",
-    "portfolioImg5": "05.jpg",
-    "portfolioImg6": "06.jpg",
+    "strengthsImg1": "01.webp",
+    "strengthsImg2": "02.WebP",
+    "strengthsImg3": "03.jpg",
+    "strengthsImg4": "04.jpg",
+    "strengthsImg5": "05.jpg",
+    "strengthsImg6": "06.jpg",
     "image-logo": "logo.jpg",
     "aboutUsText": "Wir sind Ihr Experte für Dienstleistungen, mit dem Schwerpunkt auf Paket- und Kurierdienste. Gegründet 2014 hat unser Team viel Erfahrung darin, Transporte zur vollsten Zufriedenheit unserer Kunden zu realisieren. In uns finden Sie einen Partner für schnelle, zuverlässige und kostenbewusste Transportleistungen sowie kundenorientierten Service. Unsere Flotte besteht aus modernen Fahrzeugen, um unseren Kunden  Zuverlässigkeit und Qualität zu bieten.",
     "ourCustomerText": "Unser Unternehmen führt langjährige Geschäftsbeziehungen zu namhaften Logistikunternehmen in und um Berlin. Zu unseren Kunden zählen z.B. GLS, DHL sowie mittelständische und kleine Unternehmen. Wir erbringen verschiedene Dienstleistungen: Dazu zählt unser Paketdienst und unser Kurierdienst. Außerdem vermitteln wir in Zusammenarbeit mit unseren Partnern auf die Anfragen unseren Kunden hin individuell abgestimmte Logistiklösungen.",
@@ -62,7 +62,7 @@
         "degree": "Wir sorgen dafür, dass Ihre Pakete am gewünschten Ort zur richtigen Zeit ankommen.",
         "graduated": "",
         "description": "Unsere gut ausgerüstete Flotte und unser eingespieltes Team sorgen für den reibungslosen Verlauf des Pakettransportes.",
-        "image": "images/portfolio/01.jpg"
+        "image": "images/strengths/01.jpg"
       }
     ],
     "courierService": [
@@ -120,7 +120,7 @@
       }
     ]
   },
-  "portfolio":{
+  "strengths":{
     "projects": [
       {
         "title":"Umfangreicher Fuhrpark",

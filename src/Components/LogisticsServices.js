@@ -1,9 +1,8 @@
 import Slide from "react-reveal";
-//import foto from '../../public/images/portfolio/01.jpg'
+//import foto from '../../public/images/strengths/01.jpg'
 
 const LogisticsServices = (props) => {
-  
-  // const portfolioImg1 = "images/" + props.data.portfolioImg1;;
+  // const strengthsImg1 = "images/" + props.data.strengthsImg1;;
   // const logo = "images/" + props.data.image;
 
   /* const getRandomColor = () => {
@@ -20,16 +19,17 @@ const LogisticsServices = (props) => {
   //const skillmessage = props.data.skillmessage;
 
   const parcelService = props.data.parcelService.map(function (parcelService) {
- 
     return (
       <div key={parcelService.school}>
-      <h3> {parcelService.school}</h3>
-      <p className="info">{parcelService.degree}</p>
-      <p>{parcelService.description}</p>
+        <h3> {parcelService.school}</h3>
+        <p className="info">{parcelService.degree}</p>
+        <p>{parcelService.description}</p>
       </div>
-      );
-    });
-  const courierService = props.data.courierService.map(function (courierService) {
+    );
+  });
+  const courierService = props.data.courierService.map(function (
+    courierService
+  ) {
     return (
       <div key={courierService.school}>
         <h3> {courierService.school}</h3>
@@ -49,15 +49,17 @@ const LogisticsServices = (props) => {
     );
   });
 
-   const baggageLogistics = props.data.baggageLogistics.map(function (baggageLogistics) {
-     return (
-       <div key={baggageLogistics.school}>
-         <h3>{baggageLogistics.school}</h3>
-         <p className="info">{baggageLogistics.degree}</p>
-         <p>{baggageLogistics.description}</p>
-       </div>
-     );
-   });
+  const baggageLogistics = props.data.baggageLogistics.map(function (
+    baggageLogistics
+  ) {
+    return (
+      <div key={baggageLogistics.school}>
+        <h3>{baggageLogistics.school}</h3>
+        <p className="info">{baggageLogistics.degree}</p>
+        <p>{baggageLogistics.description}</p>
+      </div>
+    );
+  });
 
   return (
     <section id="logisticsServices">
@@ -74,7 +76,7 @@ const LogisticsServices = (props) => {
               className="profile-pic"
               width={383}
               height={232}
-              src={"images/portfolio/01.Webp"}
+              src={"images/strengths/01.Webp"}
               alt="paketdienst"
             />
           </div>
@@ -93,7 +95,7 @@ const LogisticsServices = (props) => {
               className="profile-pic"
               width={383}
               height={232}
-              src={"images/portfolio/02.WebP"}
+              src={"images/strengths/02.WebP"}
               alt="paketdienst"
             />
           </div>
@@ -113,7 +115,7 @@ const LogisticsServices = (props) => {
               className="profile-pic"
               width={383}
               height={232}
-              src={"images/portfolio/03.jpg"}
+              src={"images/strengths/03.jpg"}
               alt="paketdienst"
             />
           </div>
@@ -133,7 +135,7 @@ const LogisticsServices = (props) => {
               className="profile-pic"
               width={383}
               height={232}
-              src={"images/portfolio/04.jpg"}
+              src={"images/strengths/04.jpg"}
               alt="paketdienst"
             />
           </div>

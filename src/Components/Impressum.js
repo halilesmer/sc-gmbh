@@ -1,6 +1,9 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
+
 const Impressum = () => {
-    
+    const location = useLocation();
+    console.log("location: ", location);
 
     return (
       <main className="main-Impressum">
@@ -46,7 +49,7 @@ const Impressum = () => {
             <p>Umsatzsteuer-ID: DE 299727681</p>
           </div>
           <div>
-            <h5>Haftung für Inhalte</h5>
+            <h3>Haftung für Inhalte</h3>
             <p>
               Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene
               Inhalte auf diesen Seiten nach den allgemeinen Gesetzen
@@ -66,7 +69,7 @@ const Impressum = () => {
             </p>
           </div>
           <div>
-            <h5>Haftung für Links</h5>
+            <h3>Haftung für Links</h3>
             <p>
               Unser Angebot enthält Links zu externen Websites Dritter, auf
               deren Inhalte wir keinen Einfluss haben. Deshalb können wir für
@@ -86,7 +89,7 @@ const Impressum = () => {
             </p>
           </div>
           <div>
-            <h5>Verbraucher­streit­beilegung/Schlichtungs­stelle</h5>
+            <h3>Verbraucher­streit­beilegung/Schlichtungs­stelle</h3>
             <p>
               Streitschlichtung, Art. 14 Abs. 1 ODR-Verordnung („OS-Plattform“)
               Der Verkäufer ist verpflichtet, Verbraucher auf die Europäische
@@ -120,7 +123,7 @@ const Impressum = () => {
             </p>
           </div>
           <div>
-            <h5>Urheberrecht</h5>
+            <h3>Urheberrecht</h3>
             <p>
               Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
               diesen Seiten unterliegen dem deutschen Urheberrecht. Die
