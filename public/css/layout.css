@@ -194,7 +194,7 @@ ul#nav li {
 }
 
 /* Links */
-ul#nav li a {
+ul#nav li a, ul#nav li div {
 
    /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
@@ -212,12 +212,13 @@ ul#nav li a {
    transition: color .2s ease-in-out;
 }
 
-ul#nav li a:active {
+ul#nav li a:active, ul#nav li div:active {
    background-color: transparent !important;
 }
 
 ul#nav li .active {
    color: #fe6928;
+
 }
 
 .smoothscroll {
@@ -1303,14 +1304,14 @@ footer .social-links li:first-child {
 }
 
 /* Go To Top Button */
-/* #go-top {
+#go-top {
    position: absolute;
    top: -24px;
    left: 50%;
    margin-left: -30px;
-} */
+}
 
-#go-top span {
+#go-top div {
    text-decoration: none;
    border: 0 none;
    display: block;
@@ -1330,8 +1331,11 @@ footer .social-links li:first-child {
    border-radius: 100%;
 }
 
-#go-top a:hover {
-   background-color: #0F9095;
+
+#go-top .smoothscroll:hover {
+   transition: color .3s ease-in-out;
+   color: #0F9095;
+   cursor: pointer;
 }
 
 

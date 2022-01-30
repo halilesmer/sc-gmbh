@@ -5,7 +5,7 @@
 
 # testing
 /coverage
-
+/src/budget.json
 # production
 /build
 

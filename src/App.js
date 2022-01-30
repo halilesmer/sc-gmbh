@@ -16,7 +16,6 @@ import Strengths from "./Components/Strengths";
 import ErrorPage from "./Components/ErrorPage.js";
 
 class App extends Component {
-  
   constructor(props) {
     super(props);
     this.state = {
@@ -47,8 +46,6 @@ class App extends Component {
     this.getResumeData();
   }
 
-
-
   render() {
     return (
       <BrowserRouter>
@@ -59,22 +56,23 @@ class App extends Component {
               <>
                 <div className="App">
                   <header id="home">
-                    <Navigation />
+                    <Navigation
+                      start="Start"
+                      about="Über Uns"
+                      logistic="LOGISTIKDIENSTLEISTUNGEN"
+                      ourCustomer="Unsere Kunden"
+                      ourStrengths="Unsere Stärken"
+                      contact="Kontakt"
+                    />
                     <Header data={this.state.resumeData.main} />
                   </header>
 
                   <About data={this.state.resumeData.main} />
                   <LogisticsServices
-                    
                     data={this.state.resumeData.logisticsServices}
                   />
-                  <OurCustomer
-                  
-                    data={this.state.resumeData.main}
-                  />
-                  <Strengths
-                    data={this.state.resumeData.strengths}
-                  />
+                  <OurCustomer data={this.state.resumeData.main} />
+                  <Strengths data={this.state.resumeData.strengths} />
                   <Contact data={this.state.resumeData.main} />
                   <Footer data={this.state.resumeData.main} />
                 </div>
@@ -85,7 +83,7 @@ class App extends Component {
             path="/impressum"
             element={
               <>
-                <Navigation />
+                <Navigation start={"Home"} />
                 <Impressum />
                 <Footer data={this.state.resumeData.main} />
               </>
@@ -96,7 +94,7 @@ class App extends Component {
             path="*"
             element={
               <>
-                <Navigation />
+                <Navigation start={'Home'} />
                 <ErrorPage data={this.state.resumeData.errorPage} />
               </>
             }

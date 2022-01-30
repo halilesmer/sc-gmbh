@@ -1,5 +1,5 @@
 import Fade from "react-reveal";
-import {  NavLink } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import { animateScroll as scroll } from "react-scroll";
 
 
@@ -31,7 +31,8 @@ const Footer =(props)=> {
 
               <ul className="copyright">
                 <li>
-                  <NavLink
+                  <Link
+                    onClick={scrollToTop}
                     to="/impressum"
                     title="impressum"
                     className={({ isActive }) =>
@@ -40,16 +41,16 @@ const Footer =(props)=> {
                     end
                   >
                     Impressum
-                  </NavLink>
+                  </Link>
                 </li>
               </ul>
             </div>
           </Fade>
 
-          <div id="go-top">
-            <div className="smoothscroll" title="Back to Top"></div>
-
-            <i className="icon-up-open" onClick={scrollToTop}></i>
+          <div id="go-top" onClick={scrollToTop} className="active">
+            <div className="smoothscroll" title="Back to Top">
+              <i className="icon-up-open"></i>
+            </div>
           </div>
         </div>
       </footer>

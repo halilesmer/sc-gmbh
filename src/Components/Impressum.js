@@ -1,12 +1,10 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
 
 const Impressum = () => {
-    const location = useLocation();
-    console.log("location: ", location);
+  
 
     return (
-      <main className="main-Impressum">
+      <main id='impressum' className="main-Impressum">
         <div>
           <img src={"keine"} alt="demküpü-Logo" />
 
