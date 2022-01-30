@@ -81,6 +81,7 @@ audio:not([controls]) {
 code, kbd, pre, samp {
    font-family: monospace, serif;
    font-size: 1em;
+   font-display: swap;
 }
 
 pre {
@@ -90,7 +91,7 @@ pre {
 }
 
 blockquote, q {
-   quotes: "'" "'";
+   quotes: "'""'";
 }
 
 blockquote:before, blockquote:after,
@@ -153,6 +154,7 @@ body {
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
+   font-display: swap;
    color: #838C95;
 
    -webkit-font-smoothing: antialiased;
@@ -167,6 +169,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
    color: #313131;
    font-family: 'opensans-bold', sans-serif;
+   font-display: swap;
    font-weight: normal;
 }
 
@@ -228,10 +231,14 @@ p.lead {
 the body tag due to rendering problems in some browsers */
 em {
    font: 15px/30px 'opensans-italic', sans-serif;
+   font-display: swap;
+
 }
 
 strong, b {
    font: 15px/30px 'opensans-bold', sans-serif;
+   font-display: swap;
+
 }
 
 small {
@@ -253,7 +260,7 @@ blockquote:before {
    line-height: 0px;
    margin: 0;
    font-family: arial, sans-serif;
-
+   font-display: swap;
    position: absolute;
    top: 30px;
    left: 0;
@@ -727,12 +734,14 @@ legend {
    margin: 12px 0;
    color: #3d4145;
    display: block;
+   font-display: swap;
 }
 
 label span,
 legend span {
    color: #8B9798;
    font: 14px/24px 'opensans-regular', sans-serif;
+   font-display: swap;
 }
 
 input[type="checkbox"],

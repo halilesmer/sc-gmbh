@@ -66,6 +66,7 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
+   font-display: swap;
 }
 
 header .banner-text h3 {
@@ -73,6 +74,7 @@ header .banner-text h3 {
    color: #ddd;
    margin: 0 auto;
    width: 70%;
+   font-display: swap;
 }
 
 header .banner-text h3 span,
@@ -139,6 +141,7 @@ header .slogan-header {
    margin: 3vh auto 3vh auto;
    color: white;
    font-size: 2.5vw;
+   font-display: swap;
 }
 
 /* primary navigation
@@ -162,6 +165,7 @@ header .slogan-header {
    left: 0;
    top: 0;
    background: #191919;
+   font-display: swap;
 
 }
 
@@ -251,6 +255,7 @@ ul#nav li .active {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
+   font-display: swap;
 }
 
 #about p,
@@ -327,6 +332,7 @@ ul#nav li .active {
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 6rem;
+   font-display: swap;
 }
 
 #logisticsServices h1 span {
@@ -336,6 +342,7 @@ ul#nav li .active {
 
 #logisticsServices h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   font-display: swap;
 }
 
 #logisticsServices .header-col {
@@ -377,6 +384,7 @@ ul#nav li .active {
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
+   font-display: swap;
 }
 
 #logisticsServices .info span {
@@ -387,6 +395,7 @@ ul#nav li .active {
 #logisticsServices .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+   font-display: swap;
 }
 
 /*----------------------------------------------*/
@@ -421,6 +430,7 @@ ul#nav li .active {
    font-weight: normal;
    position: relative;
    top: -36px;
+   font-display: swap;
 }
 
 .bar-expand {
@@ -542,6 +552,7 @@ ul#nav li .active {
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
+   font-display: swap;
 }
 
 /* strengths Content */
@@ -645,6 +656,7 @@ div#strengths-wrapper {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
+   font-display: swap;
 }
 
 /* on hover */
@@ -676,12 +688,14 @@ div#strengths-wrapper {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin-bottom: 12px;
    color: #111;
+   font-display: swap;
 }
 
 .popup-modal .description-box p {
    font: 14px/24px 'opensans-regular', sans-serif;
    color: #A1A1A1;
    margin-bottom: 12px;
+   font-display: swap;
 }
 
 .popup-modal .description-box .categories {
@@ -691,6 +705,7 @@ div#strengths-wrapper {
    letter-spacing: 2px;
    display: block;
    text-align: left;
+   font-display: swap;
 }
 
 .popup-modal .description-box .categories i {
@@ -709,6 +724,7 @@ div#strengths-wrapper {
    text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
+   font-display: swap;
 }
 
 .popup-modal a:hover {
@@ -763,6 +779,7 @@ div#strengths-wrapper {
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
+   font-display: swap;
 }
 
 #call-to-action h1 span {
@@ -788,6 +805,7 @@ div#strengths-wrapper {
    font: 28px/36px 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
+   font-display: swap;
 }
 
 #call-to-action h2 a {
@@ -842,6 +860,7 @@ call-to-action .button {
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
+   font-display: swap;
 }
 
 #testimonials h1 span {
@@ -1049,6 +1068,7 @@ call-to-action .button {
    letter-spacing: 3px;
    color: #EBEEEE;
    margin-bottom: 6px;
+   font-display: swap;
 }
 
 #contact h1 span {
@@ -1070,11 +1090,13 @@ call-to-action .button {
    font: 16px/24px 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
+   font-display: swap;
 }
 
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
+   font-display: swap;
 }
 
 #contact .header-col {
@@ -1094,6 +1116,7 @@ call-to-action .button {
    display: inline-block;
    float: left;
    width: 26%;
+   font-display: swap;
 }
 
 #contact input,
@@ -1194,6 +1217,7 @@ call-to-action .button {
    font: 13px/36px 'opensans-regular', Sans-serif;
    color: #474747 !important;
    border: none;
+   font-display: swap;
 }
 
 
