@@ -3,7 +3,7 @@ import Fade from "react-reveal";
 const About = ({data}) => {
   if (!data) return null;
 
-  const name = data.name;
+  const companyName = data.companyName;
   //const profilepic = "images/" + data.image;
   const logo = "images/" + data.image;
   const aboutUsText = data.aboutUsText;
@@ -36,7 +36,7 @@ const About = ({data}) => {
               <div className="columns contact-details">
                 <h2>Kontakt</h2>
                 <p className="address">
-                  <span>{name}</span>
+                  <span>{companyName}</span>
                   <br />
                   <span>
                     {street}

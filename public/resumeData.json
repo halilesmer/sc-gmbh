@@ -1,6 +1,6 @@
 {
   "main": {
-    "name": "Silver Connect GmbH",
+    "companyName": "Silver Connect GmbH",
     "slogan": "Zuverlässig. Schnell. Pünktlich.",
     "description": "Wir bieten optimale Lösungen für Ihre Transporte in Berlin. Wir stehen für höchste Leistung und maßgeschneiderte Konzepte für Ihre logistischen Anforderungen.",
     "image": "logo.jpg",
@@ -24,7 +24,7 @@
       "state": "Berlin",
       "zip": "12199"
     },
-    "website": "http://www.pdf.com",
+    "website": "www.silverconnect.de",
     "pdfDownload": "http://www.pdf.com",
     "social": [
       {

@@ -7,7 +7,7 @@ const Header = (props) => {
   if (!props.data) return null;
 
   /* const project = props.data.project; */
-  const name = props.data.name;
+  const companyName = props.data.companyName;
   const slogan = props.data.slogan;
   const description = props.data.description;
 
@@ -17,7 +17,7 @@ const Header = (props) => {
         <ParticlesBg type="lines" bg={true} />
         <div className="banner-text">
           <Fade bottom>
-            <h1 className="responsive-headline">{name}</h1>
+            <h1 className="responsive-headline">{companyName}</h1>
           </Fade>
           <Fade bottom>
             <h2 className="responsive-headline slogan-header">{slogan}</h2>

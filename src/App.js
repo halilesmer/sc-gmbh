@@ -84,7 +84,7 @@ class App extends Component {
             element={
               <>
                 <Navigation start={"Home"} />
-                <Impressum />
+                <Impressum data={this.state.resumeData.main}/>
                 <Footer data={this.state.resumeData.main} />
               </>
             }

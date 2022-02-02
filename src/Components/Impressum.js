@@ -1,10 +1,13 @@
 import React from "react";
 
-const Impressum = () => {
+const Impressum = ({data}) => {
   
+  if (!data) return null;
+
+ 
 
     return (
-      <main id='impressum' className="main-Impressum">
+      <main id="impressum" className="main-Impressum">
         <div>
           <img src={"keine"} alt="demküpü-Logo" />
 
@@ -14,13 +17,14 @@ const Impressum = () => {
           <div>
             <h3>Angaben gemäß § 5 TMG</h3>
             <p>
-              Silver Connect GmbH
-              <br></br> Schellendorffstr. 22 <br></br>12199 Berlin
+              {data.companyName}
+              <br></br> {data.address.street} <br></br>
+              {data.address.zip} {data.address.state}
             </p>
             <p>
               Geschäftsführer: <br></br> Muharrem Esmer
             </p>
-            <p>Telefon: +49 (0) 176 10628630</p>
+            <p>Telefon: {data.phone}</p>
             <p>
               {" "}
               E-Mail:{" "}
@@ -29,13 +33,13 @@ const Impressum = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                info@silverconnect.de
+                {data.email}
               </a>
             </p>
             <p>
               Internet:{" "}
               <a href="www.silverconnect.de" rel="noopener noreferrer">
-                www.silverconnect.de
+                {data.website}
               </a>
             </p>
           </div>

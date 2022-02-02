@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
-    "chokidar": "^3.5.1"
+    "chokidar": "^3.5.1",
+    "compression-webpack-plugin": "^9.2.0"
   }
 }
