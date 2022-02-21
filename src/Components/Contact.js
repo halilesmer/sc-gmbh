@@ -6,7 +6,7 @@ import ClientCaptcha from "react-client-captcha";
 
 
 
-const Contact = (props) => {
+const Contact = ({data}) => {
   const [captchaCode, setCaptchaCode] = useState('')
   const [captchaCodeInput, setCaptchaCodeInput] = useState('')
   
@@ -51,15 +51,15 @@ const Contact = (props) => {
   
 
   
-    if (!props.data) return null;
+    if (!data) return null;
 
-    const companyName = props.data.companyName;
-    const street = props.data.address.street;
-    //const city = props.data.address.city;
-    const state = props.data.address.state;
-    const zip = props.data.address.zip;
-    const phone = props.data.phone;
-    const message = props.data.contactmessage;
+    const companyName = data.companyName;
+    const street = data.address.street;
+    //const city = data.address.city;
+    const state = data.address.state;
+    const zip = data.address.zip;
+    const phone = data.phone;
+    const message = data.contactmessage;
 
     return (
       <section id="contact">
